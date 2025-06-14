@@ -1,4 +1,4 @@
-namespace backend.Services
+namespace Backend.Services
 {
 	// Auth DTOs
 	public class LoginDto

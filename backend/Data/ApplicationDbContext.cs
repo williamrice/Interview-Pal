@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using backend.Models;
-namespace backend.Data;
+using Backend.Models;
+namespace Backend.Data;
 
 public class AppDbContext : IdentityDbContext<ApplicationUser>
 {

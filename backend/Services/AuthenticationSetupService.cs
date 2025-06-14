@@ -2,10 +2,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using backend.Data;
-using backend.Models;
+using Backend.Data;
+using Backend.Models;
 
-namespace backend.Services
+namespace Backend.Services
 {
 	public static class AuthenticationSetup
 	{
